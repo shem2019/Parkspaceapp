@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="roundedcorner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="circular">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Diffcornerstyle">
+        <item name="cornerSizeTopLeft">40dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">40dp</item>
+
+    </style>
+
+</resources>

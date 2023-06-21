@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signupactivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/parking4blur">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/signuptv1"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+
+                android:alpha="0.6"
+                android:background="@drawable/tvsignup"
+                android:gravity="center_horizontal"
+                android:text="@string/Tvsignuptext"
+                android:textColor="@color/black"
+
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="@string/tvsignupemail"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edemail"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:autoText="true"
+                android:ems="10"
+                android:hint="Eg : johndoe@gmail.com"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp" />
+
+            <TextView
+                android:id="@+id/tvusername"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="@string/tvsignupusername"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edusername"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tvphone"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="@string/tvsignupphone"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edphone"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Eg :071234..."
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/tvpass"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="Password"
+                android:textSize="30sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tvpass2"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="Repeat Password"
+                android:textSize="30sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edpasswordlay2"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edpassword2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btnsignup"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonlogin_signup"
+                android:text="@string/signup_button_text" />
+
+            <Button
+                android:id="@+id/btnsignupgoogle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonlogin_signup"
+                android:text="signup with google" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "97187900732",
+    "firebase_url": "https://parkspace2-8c56a-default-rtdb.firebaseio.com",
+    "project_id": "parkspace2-8c56a",
+    "storage_bucket": "parkspace2-8c56a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97187900732:android:a47c764f068eff5caac239",
+        "android_client_info": {
+          "package_name": "com.example.parkspaceapp1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXF_b5-rvTxSEanEyGLHFi4PpezU7I6qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <FrameLayout
+        android:id="@+id/loginframe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/parking4blur"
+        app:layout_constraintTop_toTopOf="parent" >
+        <TextView
+            android:id="@+id/loginuptv1"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:alpha="0.6"
+            android:background="@drawable/tvsignup"
+            android:gravity="center_horizontal"
+            android:text="Login"
+            android:textColor="@color/black"
+
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/tvloginemail"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            android:layout_marginTop="200dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tvsignupemail" />
+
+        <EditText
+            android:id="@+id/edemaillogin"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="240dp"
+            android:autoText="true"
+            android:ems="10"
+            android:hint="Eg : johndoe@gmail.com"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp" />
+        <TextView
+            android:id="@+id/tvpasslogin"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginTop="350dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Password" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginStart="30dp"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edpasswordlogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"/>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/buttonlogin_signup"
+            android:text="@string/signup_button_text" />
+        <Button
+            android:id="@+id/btnlogingoogle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="570dp"
+            android:background="@drawable/buttonlogin_signup"
+            android:text="Login with google" />
+
+
+
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

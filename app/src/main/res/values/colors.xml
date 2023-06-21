@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="login_box">#FF4545</color>
+    <color name="login_box2">#938BA1</color>
+    <color name="color_back1">#94B0DA</color>
+    <color name="color_back2">#464d77</color>
+    <color name="color_back3">#59d2fe</color>
+    <color name="color_back4">#187BCD</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="Yellow2">#FCA510</color>
+</resources>
